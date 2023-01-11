@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="no-js" lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Camera</title>
+    <link rel='stylesheet' href='style1.css'>
+</head>
+
+<body>
+
+    <!-- For Camera -->
+
+    <div id="container1">
+        <video autoplay="true" id="videoElement">
+
+        </video>
+    </div>
+    <input type="button" value="Take Snap" onclick="take_snapshot();">
+
+    <script>
+        openCamera();
+
+        // Opening Camera
+
+        function openCamera() {
+            var video = document.getElementById("videoElement");
+            navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUsermedia ||
+                navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
+            if(navigator.getUserMedia) {
+                navigator.getUserMedia({video: true}, handleVideo, videoError);
+                function handleVideo(stream) {
+                    video.srcObject = stream;
+                    video.play();
+                }
+                function videoError() {
+
+                }
+            }
+        }
+
+        // Preload shutter audio clip
+
+        var shutter = new Audio();
+        shutter.autoplay = true;
+        shutter.src = navigator.userAgent.match(/Firefox/) ? "Shutter.mp3" : "Shutter.mp3";
+
+        function take_snapshot() {
+
+            // Play sound effect
+
+            shutter.play();
+
+            // Take snapshot and get image data
+
+            video.snap(function(data_uri) {
+
+                // Display results in page
+
+                document.getElementById("results").innerHTML = '<img src="'+data_uri+'"/ height="50" width="50">'
+            });
+        }
+    </script>
+</body>
+
+</html>
