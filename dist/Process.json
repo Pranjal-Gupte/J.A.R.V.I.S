@@ -127,9 +127,9 @@
     "jarvis tell me the full form of tcp" : "Speak('full form of tcp is Transmission Control Protocol')",
     "jarvis tell me full form of tcp" : "Speak('full form of tcp is Transmission Control Protocol')",
 
-    "jarvis what is the full form of ups" : "Speak('full form of ups is Uninterruptible Power Supply')",
-    "jarvis what is full form of ups" : "Speak('full form of ups is Uninterruptible Power Supply')",
-    "jarvis full form of ups" : "Speak('full form of ups is Uninterruptible Power Supply')",
-    "jarvis tell me the full form of ups" : "Speak('full form of ups is Uninterruptible Power Supply')",
-    "jarvis tell me full form of ups" : "Speak('full form of ups is Uninterruptible Power Supply')"
+    "jarvis what is the full form of ups" : "Speak('full form of UPS is Uninterruptible Power Supply')",
+    "jarvis what is full form of ups" : "Speak('full form of UPS is Uninterruptible Power Supply')",
+    "jarvis full form of ups" : "Speak('full form of UPS is Uninterruptible Power Supply')",
+    "jarvis tell me the full form of ups" : "Speak('full form of UPS is Uninterruptible Power Supply')",
+    "jarvis tell me full form of ups" : "Speak('full form of UPS is Uninterruptible Power Supply')"
 }
