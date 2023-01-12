@@ -110,5 +110,26 @@
     "jarvis what is full form of usb" : "Speak('full form of usb is Universal Serial Bus')",
     "jarvis full form of usb" : "Speak('full form of usb is Universal Serial Bus')",
     "jarvis tell me the full form of usb" : "Speak('full form of usb is Universal Serial Bus')",
-    "jarvis tell me full form of usb" : "Speak('full form of usb is Universal Serial Bus')"
+    "jarvis tell me full form of usb" : "Speak('full form of usb is Universal Serial Bus')",
+
+    "jarvis what is full form of computer virus" : "Speak('full form of computer virus is Vital, Information, Resource, Under Siege')",
+    "jarvis what is full form of virus" : "Speak('full form of virus is Vital, Information, Resource, Under Siege')",
+    "jarvis full form of computer virus" : "Speak('full form of computer virus is Vital, Information, Resource, Under Siege')",
+    "jarvis full form of virus" : "Speak('full form of virus is Vital, Information, Resource, Under Siege')",
+    "jarvis tell me the full form of computer virus" : "Speak('full form of virus is Vital, Information, Resource, Under Siege')",
+    "jarvis tell me the full form of virus" : "Speak('full form of computer virus is Vital, Information, Resource, Under Siege')",
+    "jarvis tell me full form of virus" : "Speak('full form of virus is Vital, Information, Resource, Under Siege')",
+    "jarvis tell me full form of computer virus" : "Speak('full form of computer virus is Vital, Information, Resource, Under Siege')",
+
+    "jarvis what is the full form of tcp" : "Speak('full form of tcp is Transmission Control Protocol')",
+    "jarvis what is full form of tcp" : "Speak('full form of tcp is Transmission Control Protocol')",
+    "jarvis full form of tcp" : "Speak('full form of tcp is Transmission Control Protocol')",
+    "jarvis tell me the full form of tcp" : "Speak('full form of tcp is Transmission Control Protocol')",
+    "jarvis tell me full form of tcp" : "Speak('full form of tcp is Transmission Control Protocol')",
+
+    "jarvis what is the full form of ups" : "Speak('full form of ups is Uninterruptible Power Supply')",
+    "jarvis what is full form of ups" : "Speak('full form of ups is Uninterruptible Power Supply')",
+    "jarvis full form of ups" : "Speak('full form of ups is Uninterruptible Power Supply')",
+    "jarvis tell me the full form of ups" : "Speak('full form of ups is Uninterruptible Power Supply')",
+    "jarvis tell me full form of ups" : "Speak('full form of ups is Uninterruptible Power Supply')"
 }
