@@ -9,7 +9,7 @@ const six = "Justin Bieber – Despacito.mp3";
 const seven = "The Chainsmokers - Closer.mp3";
 const eight = "Baby Song.mp3";
 function fetchCommands() {
-    fetch("/mic/Process.json")
+    fetch("/dist/Process.json")
         .then(response => {
             response.json()
                 .then(data => {
