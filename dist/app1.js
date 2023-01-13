@@ -44,7 +44,7 @@ function handleResults(data) {
 function ProcessCommand(UserText) {
     // if(UserText.includes('instagram'))
     // {
-    //     Speak("Opening enstagram...");
+    //     Speak("Opening instagram...");
     //     window.open("https://www.instagram.com");
     // }
     // else if(UserText.includes('youtube'))
@@ -424,6 +424,26 @@ function readList() {
         console.log(friend);
         Speak(friend);
     }
+}
+
+// News Function
+
+async function getNews() {
+    let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=539db25485fa4494811ad63c2d9f3ef0`;
+    let req = new Request(url);
+
+    await fetch(req).then((response) => response.json()).then((data) => {
+        let arrayNews = data.articles;
+        arrayNews.length = 10;
+        let a = [];
+        arrayNews.forEach((e, index) => {
+            a.push(index + 1);
+            a.push(".........")
+            a.push(e.title);
+            a.push(".........")
+        });
+        Speak(a);
+    });
 }
 
 function jarvisSaysHello() {

@@ -63,6 +63,10 @@
     "tell me system information" : "systemInfo();",
     "what is internet speed" : "internetSpeed();",
 
+    "jarvis tell me the news" : "Speak('here are some top headlines');getNews();",
+    "jarvis tell me news" : "Speak('here are some top headlines');getNews();",
+    "jarvis news" : "Speak('here are some top headlines');getNews();",
+
     "jarvis tell me a joke" : "Speak('Here are the Best Results from the Web...');getJokes();tellMeAJoke()",
     "tell me a joke jarvis" : "Speak('Here are the Best Results from the Web...');getJokes();tellMeAJoke()",
     "jarvis joke" : "Speak('Here are the Best Results from the Web...');getJokes();tellMeAJoke()",
