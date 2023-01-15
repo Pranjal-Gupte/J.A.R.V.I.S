@@ -377,11 +377,17 @@ function welcomeToFriends() {
 //Show friends list
 function friendList() {
     window.friendList = window.open(
-        "http://localhost:5500/mic/friendList.html",
+        "http://localhost:5500/dist/friendList.html",
         "",
         "width=700px,height=500px"
     )
 }
+
+//Open Scientific/Normal Calculator
+function openCalculator() {
+    window.calculator = window.open("http://localhost:5500/scientific-calculator/index.html")
+}
+
 //Close Friend List
 function closeList() {
     friendList.close();

@@ -76,7 +76,13 @@
 
     "read it": "readList()",
     "thank you jarvis": "Speak('welcome...')",
-    
+
+    "jarvis open scientific calculator" : "openCalculator(); Speak('Opening Scientific Calculator')",
+    "jarvis open calculator" : "openCalculator(); Speak('Opening Calculator')",
+    "jarvis can you open scientific calculator" : "openCalculator(); Speak('Opening Scientific Calculator')",
+    "jarvis can you open calculator" : "openCalculator(); Speak('Opening calculator')",
+    "jarvis can you open the scientific calculator" : "openCalculator(); Speak('opening scientific calculator')",
+    "jarvis can you open the calculator" : "openCalculator(); Speak('opening calculator');",   
     
     "jarvis what is full form of computer" : "Speak('full form of computer is Common; Operating; Machine; Purposely; Used; for Technological; and Educational Research')",
     "jarvis what is the full form of computer" : "Speak('full form of computer is Common; Operating; Machine; Purposely; Used; for Technological; and Educational Research')",
